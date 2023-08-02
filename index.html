@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal protofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7954f3a2c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img width="100px" height="90px" src="images/logo.png" alt="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protofolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onchange="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Science Student</p>
+                <h1>Hi, I'm <span>Vijayasree</span> <br> from India</h1>
+            </div>
+        </div>
+    </div>
+    
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/image2.png" >
+            </div>
+            <div class="about-col-1">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                    Highly motivated and detail-oriented data science
+student with a passion for extracting actionable insights
+from a data sets. Seeking a challenging role where I can
+utilize my skills in data analysis, machine learning, and
+programming to drive data-driven decision making.
+                </p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                </div>
+                <div class="tab-content active-tab" id="skills" >
+                    <ul>
+                        <li><span>Data Visualization</span><br>Power BI</li>
+                        <li><span>Cyber security</span><br>Kali Linux</li>
+                        <li><span>Full stack</span><br>HTML <br>CSS</li>
+                        <li><span>DBMS</span><br>SQL</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="education">
+                    <ul>
+                        <li><span>B.tech</span><br>KKR & KSR INSTITUTE OF TECHNOLOGY & SCIENCES</li>
+                        <li><span>Intermediate</span><br>ISri Chaithanya jr college </li>
+                        <li><span>Secondary</span><br> Aditya High School</li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="internship">
+                    <ul>
+                        <li><span>Cyber security</span><br>Lyfaux Technology pvt ltd (18-7-2022 to 4-9-2022)</li>
+                        <li><span>Data analytics</span><br>AICTE – EduSkils (March 2022 to May 2022)</li>
+                        <li><span>Robotics Process Automation</span><br>AICTE – EduSkils (19 June2023)</li>
+                        <li><span>Artificial Intelligance</span><br>Ongoing</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Internship</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-light fa-chart-mixed" style="color: #bddbda;"></i>
+                <h2>Data Analytics</h2>
+                <p>As an intern on Data Analytics at AICTE-Eduskill, you
+                    will be part of a dynamic and innovative team focused
+                    on exploring and leveraging data to extract insights
+                    and drive decision-making.
+                    </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-duotone fa-shield-check fa-beat" style="--fa-primary-color: #2f4874; --fa-secondary-color: #2f4874;"></i>
+                <h2>Cyber Security</h2>
+                <p>I worked as an intern on the web application
+                    vulnerability assessment & Penetration testing.
+                    I gained knowledge about web security and tested many
+                    sites during my intern program.
+                </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                
+                <h2>Robotics Process Automation</h2>
+                <p>Intern on Robotics Process Automation (RPA) Virtual
+                    Internship at AICTE-Eduskill, i have been a unique
+                    opportunity to delve into the world of automation.
+                    
+                </p>
+                    <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-light fa-microchip-ai" style="color: #d1e0e1;"></i>
+                <h2>Artificial Intelligance</h2>
+                <p>Intern on AI Virtual
+                    Internship at AICTE-Eduskill, i have been a unique
+                    opportunity to delve into the world of automation.
+                    
+                </p>
+                    <a href="#">learn more</a>
+            </div>
+            
+
+        </div>
+    </div>
+</div>
+
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ebusiness.png" >
+                <div class="layer">
+                    <h3>E-business</h3>
+                    <p>
+                        It is based on Fire Base which is used to guide the user to
+                        start a business.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/houserental.png" >
+                <div class="layer">
+                <h3>Houserental UI System</h3>
+                <p>It is based on Devops which used to take less time for for
+                    searching a house.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/call.png" >
+                <div class="layer">
+                <h3>Call Recording Dashboard</h3>
+                <p>It is based on data analyzing and visualization which is
+                    easily communicate with others based on dashboard
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/itemcatalog.png" >
+                <div class="layer">
+                <h3>Item-catalog</h3>
+                <p>It is based on full stack development used for which the
+                    object is available --HTML, CSS, Java Script, Node JS
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#">see more</a>
+    </div>
+</div>
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>enola@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>123345466546</p>
+                <div class="social-icons">
+                    <a href="hhtps://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="E-mail" placeholder="Your email" required>
+                    <textarea name="Message" row="6" placeholder="Your message" ></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Vijayasree. </p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-content");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+
+
+
+</script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu()
+    {
+        sidemeu.style.right="0";
+
+    }
+    
+    function closemenu()
+    {
+        sidemeu.style.right="-200px";
+        
+    }
+</script>
+
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbziUjj78v9fYaXXietijxm8vFD0WbqjiplIh872qsWLUttQbmTeiOrs5hZpWRNs9PV3/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
